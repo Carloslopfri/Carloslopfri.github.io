@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Tu Nombre</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- ====== NAVBAR ====== -->
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <nav class="max-w-5xl mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold text-indigo-600">Mi Currículum</h1>
+            <div class="flex items-center space-x-4">
+                <!-- Botón de idioma -->
+                <a href="index.html"
+                    class="px-3 py-1 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition text-sm">Traducir
+                    al Inglés</a>
+                <button class="md:hidden text-gray-700 focus:outline-none" id="menu-btn">
+                    ☰
+                </button>
+            </div>
+            <ul class="hidden md:flex space-x-6 font-medium" id="menu">
+                <li><a href="#inicio" class="hover:text-indigo-600">Inicio</a></li>
+                <li><a href="#resumen" class="hover:text-indigo-600">Resumen</a></li>
+                <li><a href="#experiencia" class="hover:text-indigo-600">Experiencia</a></li>
+                <li><a href="#formacion" class="hover:text-indigo-600">Formación</a></li>
+                <li><a href="#contacto" class="hover:text-indigo-600">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ====== SECCIÓN INICIO ====== -->
+    <section id="inicio" class="pt-24 pb-16 text-center bg-gradient-to-b from-indigo-50 to-gray-100">
+        <img src="media/fotoCV.jpg" alt="Foto de perfil"
+            class="w-56 h-56 mx-auto rounded-full shadow-lg mb-6 object-cover">
+        <h2 class="text-3xl font-bold text-indigo-700">Carlos López Frieiro</h2>
+        <p class="text-lg mt-2 text-gray-600">Técnico Superior en Desarrollo de Aplicaciones Web</p>
+    </section>
+
+
+
+    <!-- ====== RESUMEN PROFESIONAL ====== -->
+    <section id="resumen" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Resumen Profesional</h3>
+        <p class="leading-relaxed">
+            Soy una persona respetuosa, paciente y responsable.
+            Siempre he tenido una gran inclinación por las tecnologías y ver como estas
+            funcionan.<br>
+            Como resumen me gustaría destacar que de momento no he tenido mucha
+            experiencia en el ámbito del desarrollo web fuera de la propia formación y un
+            proyecto suelto, pero me adapto fácil y no tengo problemas a la hora de aprender
+            cosas nuevas.<br>
+            Los lenguajes de programación en los que me he formado son JavaScript, PHP y
+            Java, junto a sus respectivos frameworks como Angular y Laravel.
+
+        <details class="mb-3">
+            <summary class="cursor-pointer font-medium text-lg text-gray-700 hover:text-indigo-600">
+                Datos personales
+            </summary>
+            <ul class="mt-3 list-disc pl-6 text-gray-600 space-y-2">
+                <li><strong>Nombre completo:</strong> Carlos López Frieiro</li>
+                <li><strong>Año de nacimiento:</strong> 07/01/2003</li>
+                <li><strong>Nacionalidad:</strong> Española</li>
+            </ul>
+        </details>
+        </p>
+    </section>
+
+    <!-- ====== EXPERIENCIA LABORAL ====== -->
+    <section id="experiencia" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Experiencia Laboral</h3>
+
+        <details class="mb-3">
+            <summary class="cursor-pointer font-medium text-lg text-gray-700 hover:text-indigo-600">
+                Desarrollador Web en Asociación Monasterio de San Martiño de Xuvia <span
+                    class="text-sm text-gray-500">(En curso)</span>
+            </summary>
+            <ul class="mt-3 list-disc pl-6 text-gray-600 space-y-2">
+                <li>Diseño, desarrollo y mantenimiento de la aplicación web.</li>
+                <li>Diseño de interfaces web intuitivas siguiendo principios de usabilidad.</li>
+            </ul>
+        </details>
+    </section>
+
+
+    <!-- ====== APTITUDES ====== -->
+    <section id="aptitudes" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Aptitudes</h3>
+        <ul class="list-disc pl-6 space-y-2">
+            <li>Diseño web</li>
+            <li>Programación PHP y JavaScript</li>
+            <li>Gestión del tiempo</li>
+            <li>Afán de superación e iniciativa</li>
+            <li>Perfil polivalente y versátil</li>
+            <li>Autocrítica</li>
+            <li>Pensamiento estratégico</li>
+        </ul>
+    </section>
+
+    <!-- ====== FORMACIÓN ====== -->
+    <section id="formacion" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Formación</h3>
+        <ul class="space-y-3">
+            <li>
+                <strong>Grado Elemental de Música</strong><br>
+                Conservatorio de Música Xan Viaño, Ferrol — <em>Finalizado en 2018</em>
+            </li>
+
+            <li>
+                <strong>Bachillerato de Ciencias Sociales</strong><br>
+                IES Concepción Areanl, Ferrol — <em>Finalizado en 2022</em>
+            </li>
+
+            <li>
+                <strong>Técnico Superior en Desarrollo de Aplicaciones Web</strong><br>
+                CIFP Rodolfo Ucha, Ferrol — <em>Sin finalizar, a falta de las prácticas</em>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ====== PERMISOS DE CIRCULACIÓN ====== -->
+    <section id="permisos" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Permisos de circulación</h3>
+        <ul class="space-y-3">
+            <li>
+                <strong>Permiso de circulación B (coche)</strong><br>
+                Autoescuela Fene Sport, Fene — <em>Finalizado en 2022</em>
+            </li>
+
+            <li>
+                <strong>Permiso de circulación A2 (motos limitadas a 35 kW)</strong><br>
+                Autoescuela Fene Sport, Fene — <em>Finalizado en 2025</em>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ====== IDIOMAS ====== -->
+    <section id="idiomas" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Idiomas</h3>
+        <ul class="space-y-6">
+            <!-- Español -->
+            <li>
+                <div class="flex justify-between items-center mb-1">
+                    <strong>Español</strong>
+                    <span class="text-sm text-gray-500">Nivel Nativo</span>
+                </div>
+                <div class="w-full">
+                    <!-- Etiquetas de nivel -->
+                    <div class="flex justify-between text-xs text-gray-500 mb-1">
+                        <span>Bajo</span>
+                        <span>Alto</span>
+                    </div>
+                    <!-- Barra de progreso -->
+                    <div class="w-full bg-gray-200 rounded-full h-3 relative">
+                        <div class="bg-indigo-500 h-3 rounded-full" style="width: 100%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Gallego -->
+            <li>
+                <div class="flex justify-between items-center mb-1">
+                    <strong>Gallego</strong>
+                    <span class="text-sm text-gray-500">Nivel Nativo</span>
+                </div>
+                <div class="w-full">
+                    <!-- Etiquetas de nivel -->
+                    <div class="flex justify-between text-xs text-gray-500 mb-1">
+                        <span>Bajo</span>
+                        <span>Alto</span>
+                    </div>
+                    <!-- Barra de progreso -->
+                    <div class="w-full bg-gray-200 rounded-full h-3 relative">
+                        <div class="bg-indigo-500 h-3 rounded-full" style="width: 100%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Inglés -->
+            <li>
+                <div class="flex justify-between items-center mb-1">
+                    <strong>Inglés</strong>
+                    <span class="text-sm text-gray-500">Nivel B1</span>
+                </div>
+                <div class="w-full">
+                    <!-- Etiquetas de nivel -->
+                    <div class="flex justify-between text-xs text-gray-500 mb-1">
+                        <span>Bajo</span>
+                        <span>Alto</span>
+                    </div>
+                    <!-- Barra de progreso -->
+                    <div class="w-full bg-gray-200 rounded-full h-3 relative">
+                        <div class="bg-indigo-500 h-3 rounded-full" style="width: 33%;"></div>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm mt-2">
+                    St. John's - Cambridge Street, Narón — <em>Finalizado en 2023</em>
+                </p>
+            </li>
+        </ul>
+    </section>
+
+
+
+    <!-- ====== TECNOLOGÍAS ====== -->
+    <section id="tecnologias" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Tecnologías Aprendidas</h3>
+        <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">HTML5</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">CSS3</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">JavaScript</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">PHP</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">MySQL</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">Laravel</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">Angular</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">Python</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">FastApi</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">SQLite3</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">Linux</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">API</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">JSON / REST</span>
+        </div>
+    </section>
+
+    <!-- ====== CONTACTO ====== -->
+    <section id="contacto" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Contacto</h3>
+
+        <p><strong>Email:</strong> carloslopfri@gmail.com</p>
+        <p><strong>Teléfono:</strong> +34 629 94 74 97</p>
+
+        <div class="flex space-x-6 mt-4 text-3xl">
+            <a href="https://github.com/Carloslopfri" target="_blank"
+                class="text-gray-700 hover:text-indigo-600 transition">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="www.linkedin.com/in/carlos-lopez-463488268" target="_blank"
+                class="text-gray-700 hover:text-indigo-600 transition">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:carloslopfri@gmail.com" class="text-gray-700 hover:text-indigo-600 transition">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="text-center text-gray-500 text-sm py-6">
+        © 2025 Carlos López Frieiro
+    </footer>
+
+    <!-- ====== SCRIPT MENÚ RESPONSIVO ====== -->
+    <script>
+        let btn = document.getElementById('menu-btn');
+        let menu = document.getElementById('menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+            menu.classList.toggle('flex-col');
+            menu.classList.toggle('absolute');
+            menu.classList.toggle('bg-white');
+            menu.classList.toggle('right-4');
+            menu.classList.toggle('top-16');
+            menu.classList.toggle('p-4');
+            menu.classList.toggle('shadow-lg');
+            menu.classList.toggle('rounded-xl');
+            menu.classList.toggle('space-y-3');
+        });
+    </script>
+</body>
+
+</html>

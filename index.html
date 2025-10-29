@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Carlos López Frieiro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- ====== NAVBAR ====== -->
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <nav class="max-w-5xl mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold text-indigo-600">My Resume</h1>
+            <div class="flex items-center space-x-4">
+                <!-- Botón de idioma -->
+                <a href="indexES.html"
+                    class="px-3 py-1 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition text-sm">Translate
+                    to Spanish</a>
+                <button class="md:hidden text-gray-700 focus:outline-none" id="menu-btn">
+                    ☰
+                </button>
+            </div>
+            <ul class="hidden md:flex space-x-6 font-medium" id="menu">
+                <li><a href="#inicio" class="hover:text-indigo-600">Home</a></li>
+                <li><a href="#resumen" class="hover:text-indigo-600">Summary</a></li>
+                <li><a href="#experiencia" class="hover:text-indigo-600">Experience</a></li>
+                <li><a href="#formacion" class="hover:text-indigo-600">Education</a></li>
+                <li><a href="#contacto" class="hover:text-indigo-600">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ====== HOME SECTION ====== -->
+    <section id="inicio" class="pt-24 pb-16 text-center bg-gradient-to-b from-indigo-50 to-gray-100">
+        <img src="media/fotoCV.jpg" alt="Profile photo"
+            class="w-56 h-56 mx-auto rounded-full shadow-lg mb-6 object-cover">
+        <h2 class="text-3xl font-bold text-indigo-700">Carlos López Frieiro</h2>
+        <p class="text-lg mt-2 text-gray-600">Technical Engineer in Web Application Development</p>
+    </section>
+
+    <!-- ====== PROFESSIONAL SUMMARY ====== -->
+    <section id="resumen" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Professional Summary</h3>
+        <p class="leading-relaxed">
+            I am a respectful, patient, and responsible person. I have always been passionate about technology and
+            how it works.<br>
+            At this moment, I have limited professional experience in web development outside of my education and a
+            small personal project, but I adapt quickly and have no problem learning new things.<br>
+            Programming languages I have studied include JavaScript, PHP, and Java, along with frameworks such as
+            Angular and Laravel.
+        </p>
+        <details class="mb-3">
+            <summary class="cursor-pointer font-medium text-lg text-gray-700 hover:text-indigo-600">
+                Personal Information
+            </summary>
+            <ul class="mt-3 list-disc pl-6 text-gray-600 space-y-2">
+                <li><strong>Full Name:</strong> Carlos López Frieiro</li>
+                <li><strong>Date of Birth:</strong> 07/01/2003</li>
+                <li><strong>Nationality:</strong> Spanish</li>
+            </ul>
+        </details>
+    </section>
+
+    <!-- ====== WORK EXPERIENCE ====== -->
+    <section id="experiencia" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Work Experience</h3>
+
+        <details class="mb-3">
+            <summary class="cursor-pointer font-medium text-lg text-gray-700 hover:text-indigo-600">
+                Web Developer at Asociación Monasterio de San Martiño de Xuvia <span
+                    class="text-sm text-gray-500">(Ongoing)</span>
+            </summary>
+            <ul class="mt-3 list-disc pl-6 text-gray-600 space-y-2">
+                <li>Design, development, and maintenance of the web application.</li>
+                <li>Design of intuitive web interfaces following usability principles.</li>
+            </ul>
+        </details>
+    </section>
+
+    <!-- ====== SKILLS ====== -->
+    <section id="aptitudes" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Skills</h3>
+        <ul class="list-disc pl-6 space-y-2">
+            <li>Web Design</li>
+            <li>PHP and JavaScript Programming</li>
+            <li>Time Management</li>
+            <li>Motivation and Initiative</li>
+            <li>Versatile and Adaptable Profile</li>
+            <li>Self-Criticism</li>
+            <li>Strategic Thinking</li>
+        </ul>
+    </section>
+
+    <!-- ====== EDUCATION ====== -->
+    <section id="formacion" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Education</h3>
+        <ul class="space-y-3">
+            <li>
+                <strong>Elementary Music Degree</strong><br>
+                Conservatory of Music Xan Viaño, Ferrol — <em>Completed in 2018</em>
+            </li>
+
+            <li>
+                <strong>Baccalaureate in Social Sciences</strong><br>
+                IES Concepción Arenal, Ferrol — <em>Completed in 2022</em>
+            </li>
+
+            <li>
+                <strong>Higher Technician in Web Application Development</strong><br>
+                CIFP Rodolfo Ucha, Ferrol — <em>Not finished, pending internship</em>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ====== DRIVING LICENSES ====== -->
+    <section id="permisos" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Driving Licenses</h3>
+        <ul class="space-y-3">
+            <li>
+                <strong>Category B (car)</strong><br>
+                Autoescuela Fene Sport, Fene — <em>Completed in 2022</em>
+            </li>
+            <li>
+                <strong>Category A2 (motorcycles up to 35 kW)</strong><br>
+                Autoescuela Fene Sport, Fene — <em>Completed in 2025</em>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ====== LANGUAGES ====== -->
+    <section id="idiomas" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Languages</h3>
+        <ul class="space-y-6">
+            <!-- Spanish -->
+            <li>
+                <div class="flex justify-between items-center mb-1">
+                    <strong>Spanish</strong>
+                    <span class="text-sm text-gray-500">Native</span>
+                </div>
+                <div class="w-full">
+                    <div class="flex justify-between text-xs text-gray-500 mb-1">
+                        <span>Low</span>
+                        <span>High</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3 relative">
+                        <div class="bg-indigo-500 h-3 rounded-full" style="width: 100%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Galician -->
+            <li>
+                <div class="flex justify-between items-center mb-1">
+                    <strong>Galician</strong>
+                    <span class="text-sm text-gray-500">Native</span>
+                </div>
+                <div class="w-full">
+                    <div class="flex justify-between text-xs text-gray-500 mb-1">
+                        <span>Low</span>
+                        <span>High</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3 relative">
+                        <div class="bg-indigo-500 h-3 rounded-full" style="width: 100%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- English -->
+            <li>
+                <div class="flex justify-between items-center mb-1">
+                    <strong>English</strong>
+                    <span class="text-sm text-gray-500">B1 Level</span>
+                </div>
+                <div class="w-full">
+                    <div class="flex justify-between text-xs text-gray-500 mb-1">
+                        <span>Low</span>
+                        <span>High</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-3 relative">
+                        <div class="bg-indigo-500 h-3 rounded-full" style="width: 33%;"></div>
+                    </div>
+                </div>
+                <p class="text-gray-600 text-sm mt-2">
+                    St. John's - Cambridge Street, Narón — <em>Completed in 2023</em>
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ====== TECHNOLOGIES ====== -->
+    <section id="tecnologias" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Learned Technologies</h3>
+        <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">HTML5</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">CSS3</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">JavaScript</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">PHP</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">MySQL</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">Laravel</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">Angular</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">Python</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">FastApi</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">SQLite3</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">Linux</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">API</span>
+            <span class="px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full">JSON / REST</span>
+        </div>
+    </section>
+
+    <!-- ====== CONTACT ====== -->
+    <section id="contacto" class="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-2xl mb-8">
+        <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Contact</h3>
+
+        <p><strong>Email:</strong> carloslopfri@gmail.com</p>
+        <p><strong>Phone:</strong> +34 629 94 74 97</p>
+
+        <div class="flex space-x-6 mt-4 text-3xl">
+            <a href="https://github.com/Carloslopfri" target="_blank"
+                class="text-gray-700 hover:text-indigo-600 transition">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="www.linkedin.com/in/carlos-lopez-463488268" target="_blank"
+                class="text-gray-700 hover:text-indigo-600 transition">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:carloslopfri@gmail.com" class="text-gray-700 hover:text-indigo-600 transition">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="text-center text-gray-500 text-sm py-6">
+        © 2025 Carlos López Frieiro
+    </footer>
+
+    <!-- ====== SCRIPT RESPONSIVE MENU ====== -->
+    <script>
+        let btn = document.getElementById('menu-btn');
+        let menu = document.getElementById('menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+            menu.classList.toggle('flex-col');
+            menu.classList.toggle('absolute');
+            menu.classList.toggle('bg-white');
+            menu.classList.toggle('right-4');
+            menu.classList.toggle('top-16');
+            menu.classList.toggle('p-4');
+            menu.classList.toggle('shadow-lg');
+            menu.classList.toggle('rounded-xl');
+            menu.classList.toggle('space-y-3');
+        });
+    </script>
+
+</body>
+
+</html>
